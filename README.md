@@ -1,5 +1,7 @@
 # Arduino Boxing Machine
 
+<img src="/img.jpeg" />
+
 This project utilizes an Arduino microcontroller to create a boxing machine that measures the speed of punches and displays the results on a 24x8 LED matrix screen. The system incorporates two IR movement sensors to detect the punches, calculates the time difference between the first and second detected movements, and maps the resulting speed to a score ranging from 0 to 999. The score is then displayed on the LED matrix screen.
 
 ## Components
