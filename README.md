@@ -26,15 +26,13 @@ For a visual representation of the wiring connections, please refer to the circu
 
 To set up and run the Arduino Boxing Machine, follow these steps:
 
-1. Clone or download the project code from the GitHub repository: [link to your GitHub repository].
+1. Clone or download the project code from the GitHub repository: https://github.com/yosikari/ArduinoBoxingMachine
 2. Open the Arduino IDE (Integrated Development Environment) on your computer.
 3. Connect your Arduino board to your computer using a USB cable.
 4. Open the project code (`.cpp` file) in the Arduino IDE.
-5. Install any necessary libraries required for the LED matrix screen and the IR movement sensors.
+5. Install any necessary libraries required for the LED matrix screen and the IR movement sensors (MD_Parola, MD_MAX72xx, SPI).
 6. Verify and compile the code.
 7. Upload the compiled code to your Arduino board.
-
-Make sure you have the required Arduino libraries installed for the LED matrix screen and the IR movement sensors. Additional details regarding the required libraries can be found in the code comments or project documentation.
 
 ## Usage
 
@@ -51,12 +49,5 @@ After uploading the code to your Arduino, follow these steps to use the Boxing M
 9. The system will map the time difference to a score between 0 and 999 using a predefined algorithm.
 10. The resulting score will be displayed on the LED matrix screen.
 11. Repeat steps 6-10 for subsequent punches.
-
-Ensure that the sensors are appropriately calibrated, and there is sufficient space for performing punches safely. It is recommended to follow safety precautions and use suitable padding or protective gear while using the Boxing Machine.
-
-## Contributing
-
-Contributions, bug reports, and suggestions for this project are welcome! If you would like to contribute, fork the repository, make the necessary modifications, and submit a pull request.
-
 
 **Note:** This README will be updated with photos and a video demonstration of the Boxing Machine in action in the near future. Stay tuned!
