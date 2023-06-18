@@ -1,8 +1,12 @@
 # Arduino Boxing Machine
 
-[<img src="/img.jpeg" width="600"/>](https://www.youtube.com/watch?v=KghgIa7PZJ0)
+[![Boxing Machine](/img.jpeg)](https://www.youtube.com/watch?v=KghgIa7PZJ0)
 
 This project utilizes an Arduino microcontroller to create a boxing machine that measures the speed of punches and displays the results on a 24x8 LED matrix screen. The system incorporates two IR movement sensors to detect the punches, calculates the time difference between the first and second detected movements, and maps the resulting speed to a score ranging from 0 to 999. The score is then displayed on the LED matrix screen.
+
+## Demo Simulation
+
+Check it out here: [Demo Simulation](https://wokwi.com/projects/367863724333201409)
 
 ## Components
 
@@ -24,11 +28,13 @@ Connect the components as follows:
 
 For a visual representation of the wiring connections, please refer to the circuit diagram associated with the project.
 
+![Circuit Diagram](/circuit.jpeg)
+
 ## Installation
 
 To set up and run the Arduino Boxing Machine, follow these steps:
 
-1. Clone or download the project code from the GitHub repository: https://github.com/yosikari/ArduinoBoxingMachine
+1. Clone or download the project code from the GitHub repository: [https://github.com/yosikari/ArduinoBoxingMachine](https://github.com/yosikari/ArduinoBoxingMachine)
 2. Open the Arduino IDE (Integrated Development Environment) on your computer.
 3. Connect your Arduino board to your computer using a USB cable.
 4. Open the project code (`.cpp` file) in the Arduino IDE.
@@ -52,4 +58,5 @@ After uploading the code to your Arduino, follow these steps to use the Boxing M
 10. The resulting score will be displayed on the LED matrix screen.
 11. Repeat steps 6-10 for subsequent punches.
 
-**Note:** This README will be updated with photos and a video demonstration of the Boxing Machine in action in the near future. Stay tuned!
+## Contact Me
+If you have any questions or feedback about the project, please feel free to reach me out at yosikari@gmail.com.
